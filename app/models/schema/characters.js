@@ -37,7 +37,6 @@ const characterSchema = new Schema({
 		required: [true, 'Character distance is required'],
 		index: true
 	},
-	// TODO
 	skills: {
 		type: [characterSkillSchema]
 	},

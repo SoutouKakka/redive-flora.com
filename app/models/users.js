@@ -5,13 +5,10 @@ const userSchema = require('./schema/users');
 const UserModel = mongoose.model('User', userSchema);
 
 class User {
-	constructor(userDocument) {
+	static async create(userDocument) {
 		this.user = new UserModel(userDocument);
-		return this.user;
-	}
-
-	async save() {
 		await this.user.save();
+		return this.user;
 	}
 
 	static async findByUserID(userID) {
