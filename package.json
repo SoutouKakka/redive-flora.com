@@ -23,7 +23,7 @@
     "koa-bunyan-logger": "^2.1.0",
     "koa-pug": "^3.0.0-2",
     "koa-router": "^7.4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "lodash.merge": ">=4.6.2",
     "mongoose": "^5.5.12",
     "pug": "^2.0.3"
